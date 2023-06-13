@@ -215,7 +215,7 @@ msgstr "만약 활성화되면 정규 표현식을 검색합니다."
 #: findreplace/kfinddialog.cpp:222
 #, kde-format
 msgid "Click here to edit your regular expression using a graphical editor."
-msgstr "정규 표현식을 그래픽 편집기로 편집하려면 여기를 누르십시오."
+msgstr "정규 표현식을 그래픽 편집기로 편집하려면 여기를 클릭하십시오."
 
 #: findreplace/kfinddialog.cpp:223
 #, kde-format
@@ -240,7 +240,7 @@ msgstr ""
 #: findreplace/kfinddialog.cpp:231
 #, kde-format
 msgid "Click for a menu of available captures."
-msgstr "사용 가능한 캡처의 메뉴를 보려면 누르십시오."
+msgstr "사용 가능한 캡처의 메뉴를 보려면 클릭하십시오."
 
 #: findreplace/kfinddialog.cpp:232
 #, kde-format
@@ -738,3 +738,9 @@ msgstr "탭 허용"
 #, kde-format
 msgid "Speak Text"
 msgstr "텍스트 말하기"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "잘못된 정규 표현식입니다."
+
+#~ msgid "Starting Jovie Text-to-Speech Service Failed"
+#~ msgstr "Jovie TTS 서비스를 시작할 수 없습니다"

@@ -757,3 +757,6 @@ msgstr "אפשר טאבים"
 #, kde-format
 msgid "Speak Text"
 msgstr "הקרא טקסט"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "ביטוי רגולרי לא תקף."

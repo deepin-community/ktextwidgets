@@ -754,3 +754,9 @@ msgstr "Дозволити табуляцію"
 #, kde-format
 msgid "Speak Text"
 msgstr "Декламувати текст"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "Помилка у формальному виразі."
+
+#~ msgid "Starting Jovie Text-to-Speech Service Failed"
+#~ msgstr "Не вдалося запусти службу озвучування тексту Jovie"

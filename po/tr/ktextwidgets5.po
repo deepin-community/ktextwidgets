@@ -17,20 +17,21 @@
 # Serdar SOYTETİR <tulliana@gmail.com>, 2010, 2012.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-24 00:25+0000\n"
-"PO-Revision-Date: 2017-04-13 14:07+0100\n"
-"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"PO-Revision-Date: 2023-01-18 22:29+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #: dialogs/klinkdialog.cpp:39
 #, kde-format
@@ -89,12 +90,12 @@ msgstr "Belgenin sonuna ulaşıldı."
 #: findreplace/kfind.cpp:742
 #, kde-format
 msgid "Continue from the end?"
-msgstr "Sondan devam edilsin mi?"
+msgstr "Sondan sürdürülsün mü?"
 
 #: findreplace/kfind.cpp:742
 #, kde-format
 msgid "Continue from the beginning?"
-msgstr "Başından devam edilsin mi?"
+msgstr "Baştan sürdürülsün mü?"
 
 #: findreplace/kfinddialog.cpp:35
 #, kde-format
@@ -110,12 +111,12 @@ msgstr "Bul"
 #: findreplace/kfinddialog.cpp:79
 #, kde-format
 msgid "&Text to find:"
-msgstr "&Bulunacak metin:"
+msgstr "B&ulunacak metin:"
 
 #: findreplace/kfinddialog.cpp:83
 #, kde-format
 msgid "Regular e&xpression"
-msgstr "&Düzenli ifade"
+msgstr "Dü&zenli ifade"
 
 #: findreplace/kfinddialog.cpp:84
 #, kde-format
@@ -130,17 +131,17 @@ msgstr "Bununla Değiştir"
 #: findreplace/kfinddialog.cpp:96
 #, kde-format
 msgid "Replace&ment text:"
-msgstr "&Yerine konulacak metin:"
+msgstr "Değiştirilecek meti&n:"
 
 #: findreplace/kfinddialog.cpp:100
 #, kde-format
 msgid "Use p&laceholders"
-msgstr "&Yer tutucuları kullan"
+msgstr "Yer tutuc&uları kullan"
 
 #: findreplace/kfinddialog.cpp:101
 #, kde-format
 msgid "Insert Place&holder"
-msgstr "&Yer tutucu ekle"
+msgstr "Y&er tutucu ekle"
 
 #: findreplace/kfinddialog.cpp:110
 #, kde-format
@@ -150,12 +151,12 @@ msgstr "Seçenekler"
 #: findreplace/kfinddialog.cpp:113
 #, kde-format
 msgid "C&ase sensitive"
-msgstr "Bü&yük-küçük harfe duyarlı"
+msgstr "&BÜYÜK/küçük harf duyarlı"
 
 #: findreplace/kfinddialog.cpp:114
 #, kde-format
 msgid "&Whole words only"
-msgstr "&Sadece tam sözcükler"
+msgstr "&Yalnızca tam sözcükler"
 
 #: findreplace/kfinddialog.cpp:115
 #, kde-format
@@ -175,7 +176,7 @@ msgstr "&Seçili metin"
 #: findreplace/kfinddialog.cpp:124
 #, kde-format
 msgid "&Prompt on replace"
-msgstr "&Değiştirmeden önce sor"
+msgstr "D&eğiştirmeden önce sor"
 
 #: findreplace/kfinddialog.cpp:204
 #, kde-format
@@ -222,13 +223,13 @@ msgstr ""
 msgid ""
 "Enter a pattern to search for, or select a previous pattern from the list."
 msgstr ""
-"Aranacak desen'i girin veya daha önceden girilmiş bir tanesini listeden "
+"Aranacak dizgiyi girin veya daha önceden girilmiş bir tanesini listeden "
 "seçin."
 
 #: findreplace/kfinddialog.cpp:221
 #, kde-format
 msgid "If enabled, search for a regular expression."
-msgstr "Eğer etkin ise, düzenli ifadeleri ara."
+msgstr "Eğer etkin ise düzenli ifadeleri ara."
 
 #: findreplace/kfinddialog.cpp:222
 #, kde-format
@@ -240,7 +241,7 @@ msgstr ""
 #, kde-format
 msgid "Enter a replacement string, or select a previous one from the list."
 msgstr ""
-"Değiştirme dizgesi girin veya daha önceden girilmiş bir tanesini listeden "
+"Değiştirme dizisi girin veya daha önceden girilmiş bir tanesini listeden "
 "seçin."
 
 #: findreplace/kfinddialog.cpp:225
@@ -268,8 +269,8 @@ msgstr ""
 #, kde-format
 msgid "Require word boundaries in both ends of a match to succeed."
 msgstr ""
-"Bir eşleşmenin başarılı olması için iki ucunun da kelime sınırlarında (word "
-"boundaries) olmasını gerektir."
+"Bir eşleşmenin başarılı olması için iki ucunun da sözcük sınırlarında "
+"olmasını gerektir."
 
 #: findreplace/kfinddialog.cpp:233
 #, kde-format
@@ -279,7 +280,7 @@ msgstr "Belge başlangıcı yerine imlecin bulunduğu yerden aramaya başla."
 #: findreplace/kfinddialog.cpp:234
 #, kde-format
 msgid "Only search within the current selection."
-msgstr "Sadece seçili bulunan alanda arama yap."
+msgstr "Yalnızca seçili bulunan alanda arama yap."
 
 #: findreplace/kfinddialog.cpp:235
 #, kde-format
@@ -287,8 +288,8 @@ msgid ""
 "Perform a case sensitive search: entering the pattern 'Joe' will not match "
 "'joe' or 'JOE', only 'Joe'."
 msgstr ""
-"Aramayı küçük/BÜYÜK Harf duyarlı olarak yap: 'Ali' deseninde bir giriş, "
-"'ali' veya 'ALİ' ile uyuşmayacak, sadece 'Ali' yi bulacaktır."
+"Aramayı BÜYÜK/küçük Harf duyarlı olarak yap: 'Ali' dizgisi girişi, 'ali' "
+"veya 'ALİ' ile uyuşmayacak, yalnızca 'Ali' yi bulacaktır."
 
 #: findreplace/kfinddialog.cpp:236
 #, kde-format
@@ -298,11 +299,11 @@ msgstr "Geriye doğru ara."
 #: findreplace/kfinddialog.cpp:237
 #, kde-format
 msgid "Ask before replacing each match found."
-msgstr "Her yer değiştirme işlemi için sor."
+msgstr "Her bir yer değiştirme işlemi için sor."
 
 #: findreplace/kfinddialog.cpp:459
 msgid "Any Character"
-msgstr "Herhangi bir Karakter"
+msgstr "Herhangi Bir Karakter"
 
 #: findreplace/kfinddialog.cpp:460
 msgid "Start of Line"
@@ -318,11 +319,11 @@ msgstr "Karakter Kümeleri"
 
 #: findreplace/kfinddialog.cpp:463
 msgid "Repeats, Zero or More Times"
-msgstr "Sıfır ya da Daha Fazla Sayıda Tekrar"
+msgstr "Sıfır veya Daha Fazla Sayıda Yineleme"
 
 #: findreplace/kfinddialog.cpp:464
 msgid "Repeats, One or More Times"
-msgstr "Bir ya da Daha Fazla Sayıda Tekrar"
+msgstr "Bir veya Daha Fazla Sayıda Yineleme"
 
 #: findreplace/kfinddialog.cpp:465
 msgid "Optional"
@@ -330,7 +331,7 @@ msgstr "Seçimlik"
 
 #: findreplace/kfinddialog.cpp:466
 msgid "Escape"
-msgstr "Escape"
+msgstr "Kaçış"
 
 #: findreplace/kfinddialog.cpp:467
 msgid "TAB"
@@ -338,7 +339,7 @@ msgstr "Sekme"
 
 #: findreplace/kfinddialog.cpp:468
 msgid "Newline"
-msgstr "Yeni Satır"
+msgstr "Yenisatır"
 
 #: findreplace/kfinddialog.cpp:469
 msgid "Carriage Return"
@@ -346,11 +347,11 @@ msgstr "Satır Başı"
 
 #: findreplace/kfinddialog.cpp:470
 msgid "White Space"
-msgstr "Beyaz Boşluk"
+msgstr "Boşluk"
 
 #: findreplace/kfinddialog.cpp:471
 msgid "Digit"
-msgstr "Hane"
+msgstr "Basamak"
 
 #: findreplace/kfinddialog.cpp:579
 #, kde-format
@@ -365,12 +366,12 @@ msgstr "Yakalanan Metin (%1)"
 #: findreplace/kfinddialog.cpp:593
 #, kde-format
 msgid "You must enter some text to search for."
-msgstr "Aranacak metni girmelisiniz."
+msgstr "Aranacak bir metin girmelisiniz."
 
 #: findreplace/kfinddialog.cpp:600
 #, kde-format
 msgid "Invalid PCRE pattern syntax."
-msgstr ""
+msgstr "Geçersiz PCRE dizgisi sözdizimi"
 
 #: findreplace/kreplace.cpp:52 findreplace/kreplace.cpp:63
 #, kde-format
@@ -381,17 +382,17 @@ msgstr "Değiştir"
 #, kde-format
 msgctxt "@action:button Replace all occurrences"
 msgid "&All"
-msgstr "&Tümü"
+msgstr "Tü&mü"
 
 #: findreplace/kreplace.cpp:61
 #, kde-format
 msgid "&Skip"
-msgstr "&Atla"
+msgstr "A&tla"
 
 #: findreplace/kreplace.cpp:80
 #, kde-format
 msgid "Replace '%1' with '%2'?"
-msgstr " '%1' yerine '%2' getirilsin mi?"
+msgstr " '%1', '%2' ile değiştirilsin mi?"
 
 #: findreplace/kreplace.cpp:182 findreplace/kreplace.cpp:429
 #, kde-format
@@ -413,7 +414,7 @@ msgstr "Arama başlangıçtan itibaren yeniden yapılsın mı?"
 #: findreplace/kreplace.cpp:444
 #, kde-format
 msgid "Do you want to restart search at the beginning?"
-msgstr "Baştan itibaren aramaya devam etmek istiyor musunuz?"
+msgstr "Baştan itibaren aramayı sürdürmek istiyor musunuz?"
 
 #: findreplace/kreplace.cpp:449
 #, kde-format
@@ -477,13 +478,13 @@ msgstr "Metin &Vurgulaması..."
 #, kde-format
 msgctxt "@action"
 msgid "&Font"
-msgstr "&Yazı Tipi"
+msgstr "Yazıti&pi"
 
 #: widgets/krichtextwidget.cpp:244
 #, kde-format
 msgctxt "@action"
 msgid "Font &Size"
-msgstr "Yazı Tipi Boyutu"
+msgstr "Yazıtipi Boyutu"
 
 #: widgets/krichtextwidget.cpp:253
 #, kde-format
@@ -495,7 +496,7 @@ msgstr "&Kalın"
 #, kde-format
 msgctxt "@action italicize selected text"
 msgid "&Italic"
-msgstr "&Yatık"
+msgstr "Ya&tık"
 
 #: widgets/krichtextwidget.cpp:281
 #, kde-format
@@ -507,13 +508,13 @@ msgstr "&Altı Çizili"
 #, kde-format
 msgctxt "@action"
 msgid "&Strike Out"
-msgstr "&Üzeri Çizili"
+msgstr "&Üstü Çizili"
 
 #: widgets/krichtextwidget.cpp:308
 #, kde-format
 msgctxt "@action"
 msgid "Align &Left"
-msgstr "&Sola Hizala"
+msgstr "S&ola Hizala"
 
 #: widgets/krichtextwidget.cpp:309
 #, kde-format
@@ -690,62 +691,52 @@ msgid "Superscript"
 msgstr "Üstsimge"
 
 #: widgets/krichtextwidget.cpp:480
-#, fuzzy, kde-format
-#| msgid "Loading Preview"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Heading Level"
-msgstr "Önizleme Yükleniyor"
+msgstr "Başlık Düzeyi"
 
 #: widgets/krichtextwidget.cpp:481
-#, fuzzy, kde-format
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Basic Latin"
+#, kde-format
 msgctxt "@item:inmenu no heading"
 msgid "Basic text"
-msgstr "Basit Latince"
+msgstr "Basit metin"
 
 #: widgets/krichtextwidget.cpp:482
-#, fuzzy, kde-format
-#| msgctxt "Title of the notified event"
-#| msgid "Title"
+#, kde-format
 msgctxt "@item:inmenu heading level 1 (largest)"
 msgid "Title"
 msgstr "Başlık"
 
 #: widgets/krichtextwidget.cpp:483
-#, fuzzy, kde-format
-#| msgid "Untitled"
+#, kde-format
 msgctxt "@item:inmenu heading level 2"
 msgid "Subtitle"
-msgstr "Adsız"
+msgstr "Altyazı"
 
 #: widgets/krichtextwidget.cpp:484
-#, fuzzy, kde-format
-#| msgid "Action"
+#, kde-format
 msgctxt "@item:inmenu heading level 3"
 msgid "Section"
-msgstr "Eylem"
+msgstr "Bölüm"
 
 #: widgets/krichtextwidget.cpp:485
-#, fuzzy, kde-format
-#| msgid "Question"
+#, kde-format
 msgctxt "@item:inmenu heading level 4"
 msgid "Subsection"
-msgstr "Soru"
+msgstr "Alt bölüm"
 
 #: widgets/krichtextwidget.cpp:486
-#, fuzzy, kde-format
-#| msgid "Separator, Paragraph"
+#, kde-format
 msgctxt "@item:inmenu heading level 5"
 msgid "Paragraph"
-msgstr "Ayırıcı, Paragraf"
+msgstr "Paragraf"
 
 #: widgets/krichtextwidget.cpp:487
-#, fuzzy, kde-format
-#| msgid "Separator, Paragraph"
+#, kde-format
 msgctxt "@item:inmenu heading level 6 (smallest)"
 msgid "Subparagraph"
-msgstr "Ayırıcı, Paragraf"
+msgstr "Alt paragraf"
 
 #: widgets/ktextedit.cpp:47
 #, kde-format
@@ -755,17 +746,17 @@ msgstr "Yazım denetimi yapılacak bir şey yok."
 #: widgets/ktextedit.cpp:501
 #, kde-format
 msgid "Check Spelling..."
-msgstr "İmla Denetimi Yap..."
+msgstr "Yazım Denetimi Yap..."
 
 #: widgets/ktextedit.cpp:506
 #, kde-format
 msgid "Spell Checking Language"
-msgstr "İmla Denetimi Dili"
+msgstr "Yazım Denetimi Dili"
 
 #: widgets/ktextedit.cpp:527
 #, kde-format
 msgid "Auto Spell Check"
-msgstr "Otomatik İmla Denetimi"
+msgstr "Otomatik Yazım Denetimi"
 
 #: widgets/ktextedit.cpp:533
 #, kde-format
