@@ -304,7 +304,10 @@ void KRichTextEdit::switchToPlainText()
     if (d->mMode == Rich) {
         d->mMode = Plain;
         // TODO: Warn the user about this?
-        QMetaObject::invokeMethod(this, "insertPlainTextImplementation");
+        auto insertPlainFunc = [this]() {
+            insertPlainTextImplementation();
+        };
+        QMetaObject::invokeMethod(this, insertPlainFunc);
         setAcceptRichText(false);
         Q_EMIT textModeChanged(d->mMode);
     }
@@ -569,17 +572,21 @@ void KRichTextEdit::keyPressEvent(QKeyEvent *event)
         handled = true;
     }
 
+    const auto prevHeadingLevel = textCursor().blockFormat().headingLevel();
     if (!handled) {
         KTextEdit::keyPressEvent(event);
     }
 
     // Match the behavior of office suites: newline after header switches to normal text
     if (event->key() == Qt::Key_Return //
-        && textCursor().blockFormat().headingLevel() > 0 //
-        && textCursor().atBlockEnd()) {
+        && prevHeadingLevel > 0) {
         // it should be undoable together with actual "return" keypress
         textCursor().joinPreviousEditBlock();
-        setHeadingLevel(0);
+        if (textCursor().atBlockEnd()) {
+            setHeadingLevel(0);
+        } else {
+            setHeadingLevel(prevHeadingLevel);
+        }
         textCursor().endEditBlock();
     }
 

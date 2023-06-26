@@ -747,3 +747,6 @@ msgstr "允許跳格"
 #, kde-format
 msgid "Speak Text"
 msgstr "唸出文字"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "無效的正則表達式。"

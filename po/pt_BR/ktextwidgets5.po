@@ -762,3 +762,6 @@ msgstr "Permitir tabulações"
 #, kde-format
 msgid "Speak Text"
 msgstr "Falar texto"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "Expressão regular inválida."

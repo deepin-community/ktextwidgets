@@ -760,3 +760,10 @@ msgstr "Ceadaich cur an clàr"
 #, kde-format
 msgid "Speak Text"
 msgstr "Can teacsa"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "Eas-preisean riaghailteach mì-dhligheach."
+
+#~ msgid "Starting Jovie Text-to-Speech Service Failed"
+#~ msgstr ""
+#~ "Cha deach leinn Jovie a thòiseachadh, seo an t-seirbheis teacsa-gu-cainnt"

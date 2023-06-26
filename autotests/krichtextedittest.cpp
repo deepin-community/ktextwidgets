@@ -126,14 +126,20 @@ void KRichTextEditTest::testHTMLLineBreaks()
     const QStringList lines = html.split(QLatin1Char('\n'));
 
     //  for (int idx=0; idx<lines.size(); idx++) {
-    //    qDebug() << ( idx + 1 ) << QString( " : " ) << lines.at( idx );
+    //    qDebug() << ( idx + 1 ) << " : " << lines.at( idx );
     //  }
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 3, 0)
     QVERIFY2(lines.size() == 7,
              "we can't perform this unit test: "
              "the html rendering has changed beyond recognition");
+#elif QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
+    QCOMPARE(lines.size(), 8);
+#else
+    QCOMPARE(lines.size(), 10);
+#endif
 
-    const QString &line6 = lines.at(5);
+    const QString &line6 = lines.at(lines.size() - 2);
 
     // make sure that this is an empty <p> line
     QVERIFY(line6.startsWith(QStringLiteral("<p style=\"-qt-paragraph-type:empty;")));
@@ -169,15 +175,21 @@ void KRichTextEditTest::testHTMLOrderedLists()
     //  rendering has actually introduced a bug, or merely a problem with the unit test itself
     //
     //  for (int idx=0; idx<lines.size(); idx++) {
-    //    qDebug() << ( idx + 1 ) << QString( " : " ) << lines.at( idx );
+    //    qDebug() << ( idx + 1 ) << " : " << lines.at( idx );
     //  }
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 3, 0)
     QVERIFY2(lines.size() == 9,
              "we can't perform this unit test: "
              "the html rendering has changed beyond recognition");
+#elif QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
+    QCOMPARE(lines.size(), 10);
+#else
+    QCOMPARE(lines.size(), 13);
+#endif
 
     // this is the <ol> declaration line
-    const QString &line6 = lines.at(5);
+    const QString &line6 = lines.at(lines.size() - 4);
 
     //  qDebug() << line6;
 
@@ -213,15 +225,21 @@ void KRichTextEditTest::testHTMLUnorderedLists()
     //  rendering has actually introduced a bug, or merely a problem with the unit test itself
     //
     //  for (int idx=0; idx<lines.size(); idx++) {
-    //    qDebug() << ( idx + 1 ) << QString( " : " ) << lines.at( idx );
+    //    qDebug() << ( idx + 1 ) << " : " << lines.at( idx );
     //  }
 
+#if QT_VERSION < QT_VERSION_CHECK(6, 3, 0)
     QVERIFY2(lines.size() == 9,
              "we can't perform this unit test: "
              "the html rendering has changed beyond recognition");
+#elif QT_VERSION < QT_VERSION_CHECK(6, 4, 0)
+    QCOMPARE(lines.size(), 10);
+#else
+    QCOMPARE(lines.size(), 13);
+#endif
 
     // this is the <ol> declaration line
-    const QString &line6 = lines.at(5);
+    const QString &line6 = lines.at(lines.size() - 4);
 
     //  qDebug() << line6;
 

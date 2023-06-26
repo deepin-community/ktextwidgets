@@ -3,19 +3,20 @@
 #
 # Zlatko Popov <zlatkopopov@fsa-bg.org>, 2006, 2007, 2008, 2009.
 # Yasen Pramatarov <yasen@lindeas.com>, 2009, 2010, 2011, 2012, 2013.
+# Mincho Kondarev <mkondarev@yahoo.de>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-24 00:25+0000\n"
-"PO-Revision-Date: 2013-07-23 01:52+0300\n"
-"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"PO-Revision-Date: 2022-05-21 17:38+0200\n"
+"Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 22.04.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: dialogs/klinkdialog.cpp:39
@@ -346,7 +347,7 @@ msgstr "Трябва да въведете текст за търсене."
 #: findreplace/kfinddialog.cpp:600
 #, kde-format
 msgid "Invalid PCRE pattern syntax."
-msgstr ""
+msgstr "Невалиден синтаксис на PCRE модел."
 
 #: findreplace/kreplace.cpp:52 findreplace/kreplace.cpp:63
 #, kde-format
@@ -643,7 +644,7 @@ msgstr "Създаване на връзка"
 #, kde-format
 msgctxt "@action"
 msgid "Format Painter"
-msgstr ""
+msgstr "Форматиране"
 
 #: widgets/krichtextwidget.cpp:454
 #, kde-format
@@ -664,62 +665,52 @@ msgid "Superscript"
 msgstr "Горен индекс"
 
 #: widgets/krichtextwidget.cpp:480
-#, fuzzy, kde-format
-#| msgid "Loading Preview"
+#, kde-format
 msgctxt "@title:menu"
 msgid "Heading Level"
-msgstr "Зареждане на предварителен преглед"
+msgstr "Заглавно ниво"
 
 #: widgets/krichtextwidget.cpp:481
-#, fuzzy, kde-format
-#| msgctxt "KCharselect unicode block name"
-#| msgid "Basic Latin"
+#, kde-format
 msgctxt "@item:inmenu no heading"
 msgid "Basic text"
-msgstr "Латиница основни знаци"
+msgstr "Основен текст"
 
 #: widgets/krichtextwidget.cpp:482
-#, fuzzy, kde-format
-#| msgctxt "Title of the notified event"
-#| msgid "Title"
+#, kde-format
 msgctxt "@item:inmenu heading level 1 (largest)"
 msgid "Title"
 msgstr "Заглавие"
 
 #: widgets/krichtextwidget.cpp:483
-#, fuzzy, kde-format
-#| msgid "Untitled"
+#, kde-format
 msgctxt "@item:inmenu heading level 2"
 msgid "Subtitle"
-msgstr "Неозаглавено"
+msgstr "Подзаглавие"
 
 #: widgets/krichtextwidget.cpp:484
-#, fuzzy, kde-format
-#| msgid "Action"
+#, kde-format
 msgctxt "@item:inmenu heading level 3"
 msgid "Section"
-msgstr "Операция"
+msgstr "Раздел"
 
 #: widgets/krichtextwidget.cpp:485
-#, fuzzy, kde-format
-#| msgid "Question"
+#, kde-format
 msgctxt "@item:inmenu heading level 4"
 msgid "Subsection"
-msgstr "Въпрос"
+msgstr "Подраздел"
 
 #: widgets/krichtextwidget.cpp:486
-#, fuzzy, kde-format
-#| msgid "Separator, Paragraph"
+#, kde-format
 msgctxt "@item:inmenu heading level 5"
 msgid "Paragraph"
-msgstr "Разделител, параграф"
+msgstr "Параграф"
 
 #: widgets/krichtextwidget.cpp:487
-#, fuzzy, kde-format
-#| msgid "Separator, Paragraph"
+#, kde-format
 msgctxt "@item:inmenu heading level 6 (smallest)"
 msgid "Subparagraph"
-msgstr "Разделител, параграф"
+msgstr "Подпараграф"
 
 #: widgets/ktextedit.cpp:47
 #, kde-format
@@ -732,10 +723,9 @@ msgid "Check Spelling..."
 msgstr "Проверка на правописа..."
 
 #: widgets/ktextedit.cpp:506
-#, fuzzy, kde-format
-#| msgid "Spell Checking"
+#, kde-format
 msgid "Spell Checking Language"
-msgstr "Проверка на правописа"
+msgstr "Език за проверка на правописа"
 
 #: widgets/ktextedit.cpp:527
 #, kde-format
